@@ -22,13 +22,12 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-### ✅ Connected
-![Connected](screenshots/connected.png)
+| Connected | Disconnected |
+|----------|--------------|
+| <img src="https://raw.githubusercontent.com/zamizayn/internet_listener/refs/heads/main/screenshots/connected.png" width="200"/> | <img src="https://github.com/zamizayn/internet_listener/blob/main/screenshots/disconnected.png?raw=true" width="200"/> |
 
-### ❌ Disconnected
-![Disconnected](screenshots/disconnected.png)
 
 ## 📦 Installation
 
