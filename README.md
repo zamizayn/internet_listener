@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://pub.dev/packages/internet_connection_listener"><img src="https://img.shields.io/pub/v/internet_connection_listener?color=blue&label=pub.dev&logo=dart" alt="Pub Version"></a>
-  <a href="https://github.com/zamizayn/internet_listener"><</a>
+  <a href="https://github.com/zamizayn/internet_listener"></a>
 </p>
 
 ---
@@ -21,6 +21,14 @@
 🧪 Comes with an example app for quick setup
 
 ---
+
+## 📸 Screenshots
+
+### ✅ Connected
+![Connected](screenshots/connected.png)
+
+### ❌ Disconnected
+![Disconnected](screenshots/disconnected.png)
 
 ## 📦 Installation
 
