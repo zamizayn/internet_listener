@@ -6,8 +6,7 @@
 
 <p align="center">
   <a href="https://pub.dev/packages/internet_connection_listener"><img src="https://img.shields.io/pub/v/internet_connection_listener?color=blue&label=pub.dev&logo=dart" alt="Pub Version"></a>
-  <a href="https://github.com/zamizayn/internet_listener"><img src="https://img.shields.io/github/stars/yourusername/internet_connection_listener?style=social" alt="GitHub stars"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+  <a href="https://github.com/zamizayn/internet_listener"><</a>
 </p>
 
 ---
