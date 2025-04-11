@@ -1,8 +1,8 @@
 name: internet_connection_listener
 description: A simple package to show a No Internet Connection page using Flutter.
 version: 0.0.1
-homepage: https://github.com/yourusername/internet_connection_listener
-repository: https://github.com/yourusername/internet_connection_listener
+homepage: https://github.com/zamizayn/internet_listener
+repository: https://github.com/zamizayn/internet_listener
 
 environment:
   sdk: ^3.5.4
