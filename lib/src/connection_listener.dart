@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_listener/internet_connection_listener.dart';
-import 'package:internet_connection_listener/src/navigator_service.dart';
-import 'package:internet_connection_listener/src/no_internet_page.dart';
 
 class ConnectionListener extends StatefulWidget {
   final Widget child;
