@@ -6,8 +6,9 @@ import 'package:internet_connection_listener/src/no_internet_page.dart';
 
 class ConnectionListener extends StatefulWidget {
   final Widget child;
+   Widget? noInternetWidget;
 
-  const ConnectionListener({Key? key, required this.child}) : super(key: key);
+   ConnectionListener({Key? key, required this.child,this.noInternetWidget}) : super(key: key);
 
   @override
   State<ConnectionListener> createState() => _ConnectionListenerState();
@@ -20,6 +21,12 @@ class _ConnectionListenerState extends State<ConnectionListener> {
   @override
   void initState() {
     super.initState();
+    if(widget.noInternetWidget == null){
+      widget.noInternetWidget = NoInternetPage();
+      setState(() {
+        
+      });
+    }
     _subscription = ConnectionService()
         .connectionStatusStream
         .listen(_handleConnectionChange);
@@ -32,7 +39,7 @@ void _handleConnectionChange(ConnectionStatus status) {
   if (status == ConnectionStatus.disconnected && !_isDialogShown) {
     _isDialogShown = true;
     navigator.push(MaterialPageRoute(
-      builder: (_) => const NoInternetPage(),
+      builder: (_) => widget.noInternetWidget!,
     ));
   } else if (status == ConnectionStatus.connected && _isDialogShown) {
     _isDialogShown = false;
