@@ -1,4 +1,3 @@
-
 import 'package:internet_connection_listener/internet_connection_listener.dart';
 
 void main() {

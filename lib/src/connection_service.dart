@@ -31,13 +31,16 @@ class ConnectionService {
     // _connectivity.onConnectivityChanged.listen((ConnectivityResult result) {
     //   _connectionStatusController.add(_getStatusFromResult(result));
     // });
-    _connectivity.onConnectivityChanged.listen((event) {
+    _connectivity.onConnectivityChanged.listen(
+      (event) {
         _connectionStatusController.add(_getStatusFromResult(event));
-    },);
+      },
+    );
   }
 
   ConnectionStatus _getStatusFromResult(ConnectivityResult result) {
-    if (result == ConnectivityResult.mobile || result == ConnectivityResult.wifi) {
+    if (result == ConnectivityResult.mobile ||
+        result == ConnectivityResult.wifi) {
       return ConnectionStatus.connected;
     } else {
       return ConnectionStatus.disconnected;
